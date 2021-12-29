@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(287.56deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+}
+
+input,
+button {
+  width: 500px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+input {
+  padding: 17px 0 17px 23px;
+}
+
+.login__block {
+  margin: 48px 96px 48px 96px;
+}
+
+.login__header {
+  color: white;
+  font-style: normal;
+  line-height: 46px;
+  font: bold 38px "Poppins", sans-serif;
+  margin-bottom: 26px;
+}
+
+label {
+  font: normal 18px "Poppins", sans-serif;
+  line-height: 21px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.login__email {
+  margin-bottom: 30px;
+}
+
+input::placeholder,
+.login__orCont,
+.login__textRegister,
+.login__forgotPass {
+  font: normal 14px "Poppins", sans-serif;
+  line-height: 16px;
+}
+input::placeholder {
+  color: #bcbec0;
+}
+.login__orCont,
+.login__textRegister {
+  color: white;
+  text-align: center;
+}
+.login {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  width: 690px;
+  height: 690px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__button {
+  background-color: #bd0c47;
+}
+button {
+  font: bold 20px "Poppins", sans-serif;
+  line-height: 24px;
+  color: white;
+  margin-top: 42px;
+  margin-bottom: 32px;
+}
+
+.login ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 29px;
+  margin-bottom: 32px;
+}
+.login__icons_item {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #bcbec0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__textRegister a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.login__forgotPass {
+  color: white;
+  text-decoration: none;
+  margin-top: 17px;
+}
+
+.img__one {
+  position: absolute;
+  left: 31.04%;
+  top: 0;
+}
+
+.img__two {
+  position: absolute;
+  right: 15.3%;
+  top: 10.28%;
+}
+
+.img__three {
+  position: absolute;
+  right: 0%;
+  bottom: 0;
+}
+.img__four {
+  position: absolute;
+  left: 22.9%;
+  top: 59.48%;
+}
+.img__five {
+  position: absolute;
+  left: 21.84%;
+  top: 28.25%;
+  z-index: 1;
+}
+
+.password {
+  position: relative;
+}
+
+.password img {
+  position: absolute;
+  top: 17px;
+  right: 8px;
+  padding: 20px;
+}
